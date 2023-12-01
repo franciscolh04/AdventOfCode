@@ -1,6 +1,6 @@
 calories, maxCalories, secondCalories, thirdCalories = 0, 0, 0, 0
 
-with open("2022/day1.in", "r") as file:
+with open("2022/Day 1/day1.in", "r") as file:
     lines = [line.strip() for line in file.readlines()]
 
 for line in lines:
