@@ -14,7 +14,7 @@ for line in lines:
             number = int(line[i])
             break
     
-    # Corrigir para procurar desde o fim
+    # Finds number from the end of the string
     for i in range(1, size):
         if line[size - i].isnumeric():
             number = number * 10 + int(line[size - i])
